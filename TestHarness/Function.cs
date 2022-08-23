@@ -15,12 +15,7 @@ public class Function
 
     private int result = 0;
 
-    /// <summary>
-    /// A simple function that takes a string and does a ToUpper
-    /// </summary>
-    /// <param name="input"></param>
-    /// <param name="context"></param>
-    /// <returns></returns>
+    // borrowed from https://github.com/xunit/samples.xunit/blob/main/TestRunner/Program.cs
     public int FunctionHandler(string input, ILambdaContext context)
     {
         var dir = Directory.GetCurrentDirectory();
