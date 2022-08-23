@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTests", "IntegrationTests\IntegrationTests.csproj", "{74957F17-1694-4205-9FB1-7987FDF7F483}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestHarness", "TestHarness\TestHarness.csproj", "{3B5FAB86-D0A0-46F8-8AC9-DD44671EF8CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppLambda", "AppLambda\AppLambda.csproj", "{83017390-FC02-4A00-B93B-9EAD1681AE83}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74957F17-1694-4205-9FB1-7987FDF7F483}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74957F17-1694-4205-9FB1-7987FDF7F483}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74957F17-1694-4205-9FB1-7987FDF7F483}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74957F17-1694-4205-9FB1-7987FDF7F483}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B5FAB86-D0A0-46F8-8AC9-DD44671EF8CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B5FAB86-D0A0-46F8-8AC9-DD44671EF8CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B5FAB86-D0A0-46F8-8AC9-DD44671EF8CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B5FAB86-D0A0-46F8-8AC9-DD44671EF8CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83017390-FC02-4A00-B93B-9EAD1681AE83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83017390-FC02-4A00-B93B-9EAD1681AE83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83017390-FC02-4A00-B93B-9EAD1681AE83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83017390-FC02-4A00-B93B-9EAD1681AE83}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
